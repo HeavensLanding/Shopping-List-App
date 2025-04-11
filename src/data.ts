@@ -1,3 +1,6 @@
+//this will hold the shopping items
+
+
 export const items = [
     {
       id: 1,

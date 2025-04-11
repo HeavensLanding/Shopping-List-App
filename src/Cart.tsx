@@ -10,7 +10,7 @@ type Item = {
 type Props = {
   items: Item[];
 };
-
+//this is showing the entire cart as a whole without the css involved as in cart item
 const Cart = ({ items }: Props) => {
   return (
     <div>

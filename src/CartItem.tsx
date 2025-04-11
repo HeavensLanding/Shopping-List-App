@@ -1,8 +1,12 @@
+//the type makes it so that i dont have to type it in individually to make it messy//
+
 type Props = {
   name: string;
   price: number;
   quantity: number;
 };
+
+//here we are taking care of the individual cart item
 
 const CartItem = ({ name, price, quantity }: Props) => {
   return (
